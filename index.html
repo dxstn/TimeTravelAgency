@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zeitreise-Agentur</title>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-yellow-50 text-gray-800">
+
+    
+    <header class="bg-gray-300 p-4">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-3">
+            <h1 class="text-2xl font-bold">
+                Zeitreise-Agentur
+            </h1>
+
+            <nav class="flex gap-4">
+                <a href="#home">Startseite</a>
+                <a href="#trips">Reisen</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main class="p-4">
+
+        
+        <section id="home" class="my-6">
+            <h2 class="text-3xl font-bold mb-3">
+                Reise durch die Zeit!
+            </h2>
+
+            <p class="mb-4">
+                Möchtest du Dinosaurier sehen oder die Zukunft besuchen?
+                Dann bist du bei uns genau richtig!
+            </p>
+
+            <img
+                src="https://picsum.photos/800/300"
+                alt="Ein Bild von einem Reiseziel"
+                class="w-full rounded-lg"
+            >
+
+            <button class="bg-green-300 p-3 mt-4 rounded">
+                Buche deine Reise!
+            </button>
+        </section>
+
+        
+        <section id="trips" class="my-8">
+            <h2 class="text-2xl font-bold mb-4">
+                Unsere Reiseziele
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+                <div class="bg-white p-3 rounded shadow">
+                    <img
+                        src="https://picsum.photos/300/200?random=1"
+                        alt="Das alte Ägypten"
+                        class="w-full rounded"
+                    >
+                    <h3 class="font-bold mt-2">Das alte Ägypten</h3>
+                    <p>Besuche die Pyramiden!</p>
+                </div>
+
+                <div class="bg-white p-3 rounded shadow">
+                    <img
+                        src="https://picsum.photos/300/200?random=2"
+                        alt="Die Zeit der Dinosaurier"
+                        class="w-full rounded"
+                    >
+                    <h3 class="font-bold mt-2">Die Zeit der Dinosaurier</h3>
+                    <p>Triff einen echten Dinosaurier!</p>
+                </div>
+
+                <div class="bg-white p-3 rounded shadow">
+                    <img
+                        src="https://picsum.photos/300/200?random=3"
+                        alt="Eine Stadt der Zukunft"
+                        class="w-full rounded"
+                    >
+                    <h3 class="font-bold mt-2">Die Zukunft</h3>
+                    <p>Entdecke fliegende Autos!</p>
+                </div>
+
+            </div>
+        </section>
+
+        
+        <section class="my-8">
+            <h2 class="text-2xl font-bold mb-4">
+                Unsere Leistungen
+            </h2>
+
+            <div class="flex flex-col md:flex-row gap-4">
+
+                <div class="bg-blue-100 p-4 rounded flex-1">
+                    <h3 class="font-bold">Zeitmaschine</h3>
+                    <p>Reise sicher durch die Zeit.</p>
+                </div>
+
+                <div class="bg-pink-100 p-4 rounded flex-1">
+                    <h3 class="font-bold">Reiseführer</h3>
+                    <p>Wir zeigen dir die schönsten Orte.</p>
+                </div>
+
+                <div class="bg-green-100 p-4 rounded flex-1">
+                    <h3 class="font-bold">Zeitreise-Versicherung</h3>
+                    <p>Wir helfen dir, wenn etwas schiefgeht.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    
+    <footer id="contact" class="bg-gray-300 p-4">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-2">
+            <p>© 2026 Zeitreise-Agentur</p>
+            <p>Kontakt: zeitreise@agentur.de</p>
+        </div>
+    </footer>
+
+</body>
+</html>
